@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4ab9ff;
+    padding: 1px 20px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .navbar h1 {
+    font-size: 28px;
+  }
+  
+  .navbar div a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+  }
+  
+  .navbar div a:hover {
+    text-decoration: underline;
+  }
+  

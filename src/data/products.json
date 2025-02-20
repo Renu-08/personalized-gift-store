@@ -1,0 +1,18 @@
+{
+    "couple-mugs": [
+      { "id": 1, "name": "Boy & Girl Mug", "price": 499, "image": "/images/Mugs1.jpeg" },
+      { "id": 2, "name": "Forever Love Mug", "price": 599, "image": "/images/Mugs2.jpeg" },
+      { "id": 2, "name": "Forever Love", "price": 566, "image": "/images/Mugs3.jpeg" }
+    ],
+    "custom-love-tshirts": [
+      { "id": 1, "name": "Soulmate T-Shirt", "price": 799, "image": "/images/TShirt1.jpeg" },
+      { "id": 2, "name": "Love Miracle", "price": 899, "image": "/images/Tshirt2.jpeg" },
+      { "id": 3, "name": "Together & Forever", "price": 699, "image": "/images/Tshirt3.jpeg"}
+    ],
+    "love-frames":[
+        { "id": 1, "name": "Love Frame", "price": 899, "image": "/images/Frame1.jpeg" },
+        { "id": 2, "name": "Wooden Love Frame", "price": 999, "image": "/images/Frame2.jpeg" },
+        { "id": 3, "name": "Anniversary Frame", "price": 699, "image": "/images/Frame3.jpeg"}
+    ]
+  }
+  
