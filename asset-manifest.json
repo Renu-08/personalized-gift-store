@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/personalized-gift-store/static/css/main.3cd9f6f8.css",
+    "main.js": "/personalized-gift-store/static/js/main.e25b704b.js",
+    "static/media/theme.jpeg": "/personalized-gift-store/static/media/theme.72d6c0a20b2cbb4d900e.jpeg",
+    "index.html": "/personalized-gift-store/index.html",
+    "main.3cd9f6f8.css.map": "/personalized-gift-store/static/css/main.3cd9f6f8.css.map",
+    "main.e25b704b.js.map": "/personalized-gift-store/static/js/main.e25b704b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cd9f6f8.css",
+    "static/js/main.e25b704b.js"
+  ]
+}
