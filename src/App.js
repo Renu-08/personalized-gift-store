@@ -23,22 +23,25 @@ const App = () => {
   const clearCart = () => {
     setCartItems([]);
     localStorage.removeItem("cart");
-  }   
+  };
 
   return (
-  <>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/explore" element={<Explore />} />
-      <Route
-        path="/category/:type"
-        element={<CategoryPage addToCart={addToCart} clearCart={clearCart} />}
-      />
-      <Route path="/cart" element={<Cart cartItems={cartItems} clearCart={clearCart} />} />
-    </Routes>
-  </>
-);
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route
+          path="/category/:type"
+          element={<CategoryPage addToCart={addToCart} clearCart={clearCart} />}
+        />
+        <Route
+          path="/cart"
+          element={<Cart cartItems={cartItems} clearCart={clearCart} />}
+        />
+      </Routes>
+    </>
+  );
 };
 
 export default App;

@@ -1,6 +1,7 @@
 .category-container {
     text-align: center;
     padding: 50px;
+    font-family: 'Dancing Script', cursive;
   }
   
   .product-grid {
@@ -37,16 +38,17 @@
   }
   
   .product-card button {
-    background-color: #ff4d6d;
+    background-color:  #5acdfb;
     color: white;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    font-family: 'Dancing Script', cursive;
     border-radius: 20px;
     cursor: pointer;
   }
   
   .product-card button:hover {
-    background-color: #e63956;
+    background-color: #52e39b;
   }
   
