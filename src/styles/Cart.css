@@ -1,5 +1,5 @@
 .cart-container {
-   background: url('images\theme.jpeg') no-repeat center center/cover;
+   background: url('/images/theme.jpeg') no-repeat center center/cover;
     height: 100vh;
     text-align: center;
     padding: 50px;
