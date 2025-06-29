@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Cart.css";
 
-const Cart = ({ cartItems }) => {
+const Cart = ({ cartItems , clearCart}) => {
   const totalPrice = cartItems.reduce((sum, item) => sum + item.price, 0);
 
   return (
@@ -19,6 +19,7 @@ const Cart = ({ cartItems }) => {
             </div>
           ))}
           <h3>Total: ₹{totalPrice}</h3>
+          <button onClick={clearCart} className="cart-button" >Clear Cart</button>
         </div>
       )}
     </div>

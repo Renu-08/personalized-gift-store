@@ -1,6 +1,9 @@
 .cart-container {
+   background: url('C:\Users\lokes\OneDrive\Desktop\Projects\personalized-gift-store\public\images\theme.jpeg') no-repeat center center/cover;
+    height: 100vh;
     text-align: center;
     padding: 50px;
+    font-family: 'Dancing Script', cursive;
   }
   
   .cart-item {
@@ -32,4 +35,15 @@
     color: #ff4d6d;
     font-weight: bold;
   }
-  
+
+  .cart-button {
+    background-color: #4dd0ff;
+    color: rgb(6, 6, 6);
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
